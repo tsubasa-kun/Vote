@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/about_app"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/app_intro"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/app_right"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/about_author"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/author_icon"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/theme"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/author"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/phone_icon"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/theme"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/phone"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/qq_icon"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/theme"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/qq"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/weixin_icon"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/theme"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/weixin"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/mail_icon"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/theme"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/mail"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/home_page_icon"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/theme"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/home_page"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/company_icon"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/theme"
+                    android:padding="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/company"
+                    android:textColor="@color/theme"
+                    android:textSize="16sp"
+                    android:background="@drawable/common_et_bg"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

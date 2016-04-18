@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Activity滑动切换 -->
+    <style name="SlideStyle" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/Enter_Animations</item>
+    </style>
+    <style name="Enter_Animations" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/page_enter_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/page_enter_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/page_exit_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/page_exit_out</item>
+    </style>
+
+    <!-- 进度条 -->
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">21dip</item>
+        <item name="android:layout_height">21dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Dialog样式 -->
+    <style name="customDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">投你所爱</string>
+
+    <string name="app_intro">投你所爱</string>
+    <string name="app_right">love-cookies\nCopyright © 2016 XIEKUN .All Rights Reserved</string>
+    <string name="author">解坤 | Cookie</string>
+    <string name="phone">15651990315</string>
+    <string name="qq">499721061</string>
+    <string name="weixin">kun13142</string>
+    <string name="mail">tsubasa-kun@foxmail.com</string>
+    <string name="home_page">love-cookies.com</string>
+    <string name="company">爱曲奇工作室 | love-cookies</string>
+
+    <string name="exit_tip">再按一次退出</string>
+    <string name="submit">确定</string>
+    <string name="cancel">取消</string>
+    <string name="empty">没有数据哎-_-b</string>
+    <string name="error">额哦，开小差了-_-b...</string>
+
+    <string name="login_title">登录</string>
+    <string name="register_title">注册</string>
+    <string name="user_nickname_text">昵称</string>
+    <string name="user_nickname_hint">请输入昵称</string>
+    <string name="user_account_text">账号</string>
+    <string name="user_account_hint">请输入账号</string>
+    <string name="user_password_text">密码</string>
+    <string name="user_password_hint">请输入密码</string>
+    <string name="login_btn_text">登录</string>
+    <string name="register_btn_text">注册</string>
+    <string name="user_re_password_text">确认密码</string>
+    <string name="user_re_password_hint">请再次输入密码</string>
+    <string name="login_empty">请输入账号和密码</string>
+    <string name="login_error">账号或密码错误</string>
+    <string name="re_account_exist">账户已存在</string>
+    <string name="re_password_error">两次输入的密码不一致</string>
+    <string name="register_success">注册成功</string>
+    <string name="logout_btn_text">注销登录</string>
+
+    <string name="network_disabled">网络不可用</string>
+    <string name="waiting_tip">数据加载中...</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新...</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_nodate">已加载全部</string>
+
+    <string name="setting_version">版本信息</string>
+
+    <string name="create_title">创建投票</string>
+    <string name="create_add_column">添加选项</string>
+    <string name="create_subject_hint">请输入主题</string>
+    <string name="create_content_hint">请输入描述</string>
+    <string name="create_column_hint">请输入选项</string>
+    <string name="create_column_error">请添加选项</string>
+    <string name="create_max_text">最大可选</string>
+    <string name="create_max_hint">请输入最大可选</string>
+    <string name="create_max_error">最大可选最小为1</string>
+    <string name="create_success">发布成功</string>
+
+    <string name="publicer_my">由我发起</string>
+    <string name="status_on">进行中</string>
+    <string name="status_off">已结束</string>
+
+    <string name="vote_created_title">编辑</string>
+    <string name="vote_finish_btn_text">结束投票</string>
+    <string name="vote_analyze_btn_text">查看结果</string>
+    <string name="vote_finish_tip">投票已置为结束</string>
+
+    <string name="vote_detail_title">投票</string>
+    <string name="vote_detail_user_text">由%s发起</string>
+    <string name="vote_detail_column_hint">请选择选项</string>
+    <string name="vote_detail_max_hint">最多可选%d项</string>
+    <string name="vote_detail_vote_btn_text">确定投票</string>
+    <string name="vote_detail_voted_text">已投票</string>
+    <string name="vote_detail_vote_success">投票成功</string>
+
+    <string name="vote_result_title">投票结果</string>
+
+    <string name="home_title">个人中心</string>
+    <string name="home_my_public">我发起的</string>
+    <string name="home_my_join">我参与的</string>
+    <string name="home_feedback">意见反馈</string>
+    <string name="feedback_submit_btn_text">提交</string>
+    <string name="feedback_success">意见反馈成功，感谢您的支持</string>
+    <string name="home_version">版本信息</string>
+    <string name="home_about">关于软件</string>
+    <string name="home_update">检查更新</string>
+    <string name="no_update_tip">已是最新版本</string>
+    <string name="has_update_tip">存在新版本：V%s，请前往应用市场更新</string>
+    <string name="about_app">APP</string>
+    <string name="about_author">作者</string>
+
+</resources>

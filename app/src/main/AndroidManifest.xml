@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.love_cookies.vote" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+
+    <application
+        android:name=".Presenter.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <receiver android:name=".Presenter.NetWorkReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".View.Activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.Activity.MainActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.LoginActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.RegisterActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.CreateVoteActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.AddColumnActivity"
+            android:theme="@style/customDialog" />
+        <activity
+            android:name=".View.Activity.CreatedDetailActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.VoteDetailActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.HomeActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.VersionActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.AboutActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.MyPublicVoteActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.MyJoinVoteActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.VoteResultActivity"
+            android:theme="@style/SlideStyle" />
+        <activity
+            android:name=".View.Activity.ChoseMaxActivity"
+            android:theme="@style/customDialog" />
+        <activity
+            android:name=".View.Activity.FeedBackActivity"
+            android:theme="@style/SlideStyle" />
+    </application>
+
+</manifest>

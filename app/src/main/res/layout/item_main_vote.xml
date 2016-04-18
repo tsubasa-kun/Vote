@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_list_item_bg"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/vote_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/vote_img" />
+
+    <TextView
+        android:id="@+id/subject_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/vote_icon"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="2dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="TITLE" />
+
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/vote_icon"
+        android:ellipsize="end"
+        android:lines="2"
+        android:maxLines="2"
+        android:padding="2dp"
+        android:textColor="@color/darkgray"
+        android:textSize="12sp"
+        tools:text="CONTENT" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/content_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/vote_icon"
+        android:padding="2dp"
+        android:textColor="@color/darkgray"
+        android:textSize="12sp"
+        tools:text="DATE" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/status_text_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:text="STATUS" />
+
+    <TextView
+        android:id="@+id/publicer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@id/status_text"
+        android:background="@drawable/status_text_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/publicer_my"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

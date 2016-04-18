@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_titlebar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.love_cookies.vote.View.Wedget.LoadAndRefreshView
+            android:id="@+id/load_and_refresh_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/vote_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerHeight="0.5dp"/>
+
+        </com.love_cookies.vote.View.Wedget.LoadAndRefreshView>
+
+        <ImageView
+            android:id="@+id/create_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="20dp"
+            android:src="@drawable/main_btn_create" />
+
+    </FrameLayout>
+
+</LinearLayout>

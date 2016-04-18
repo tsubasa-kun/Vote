@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_inside_thickness" format="dimension" />
+        <attr name="border_outside_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="HomeItem">
+        <attr name="Icon" format="reference" />
+        <attr name="Title" format="reference" />
+    </declare-styleable>
+</resources>

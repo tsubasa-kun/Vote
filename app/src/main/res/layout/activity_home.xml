@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_titlebar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/user_head_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/user_img" />
+
+                <TextView
+                    android:id="@+id/user_nickname_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/user_head_iv"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    tools:text="USER_NAME" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/lightgray" />
+
+            <com.love_cookies.vote.View.Wedget.HomeItemView
+                android:id="@+id/my_public_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:Title="@string/home_my_public" />
+
+            <com.love_cookies.vote.View.Wedget.HomeItemView
+                android:id="@+id/my_join_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:Title="@string/home_my_join" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgray" />
+
+            <com.love_cookies.vote.View.Wedget.HomeItemView
+                android:id="@+id/feedback_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:Title="@string/home_feedback" />
+
+            <com.love_cookies.vote.View.Wedget.HomeItemView
+                android:id="@+id/version_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:Title="@string/home_version" />
+
+            <com.love_cookies.vote.View.Wedget.HomeItemView
+                android:id="@+id/about_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:Title="@string/home_about" />
+
+            <com.love_cookies.vote.View.Wedget.HomeItemView
+                android:id="@+id/update_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:Title="@string/home_update" />
+
+            <TextView
+                android:id="@+id/logout_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/common_btn_bg"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="@string/logout_btn_text"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
