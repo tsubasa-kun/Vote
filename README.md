@@ -26,14 +26,14 @@
 ### 截图
 ![icon](http://ol37f9s9s.bkt.clouddn.com/app_icon.png)
 
-![0](http://ol37f9s9s.bkt.clouddn.com/vote_0.png)
-![1](http://ol37f9s9s.bkt.clouddn.com/vote_1.png)
+![0](http://ol37f9s9s.bkt.clouddn.com/vote_00.png)
+![1](http://ol37f9s9s.bkt.clouddn.com/vote_01.png)
 
-![2](http://ol37f9s9s.bkt.clouddn.com/vote_2.png)
-![3](http://ol37f9s9s.bkt.clouddn.com/vote_3.png)
+![2](http://ol37f9s9s.bkt.clouddn.com/vote_02.png)
+![3](http://ol37f9s9s.bkt.clouddn.com/vote_03.png)
 
-![4](http://ol37f9s9s.bkt.clouddn.com/vote_4.png)
-![5](http://ol37f9s9s.bkt.clouddn.com/vote_5.png)
+![4](http://ol37f9s9s.bkt.clouddn.com/vote_04.png)
+![5](http://ol37f9s9s.bkt.clouddn.com/vote_05.png)
 
-![6](http://ol37f9s9s.bkt.clouddn.com/vote_6.png)
-![7](http://ol37f9s9s.bkt.clouddn.com/vote_7.png)
+![6](http://ol37f9s9s.bkt.clouddn.com/vote_06.png)
+![7](http://ol37f9s9s.bkt.clouddn.com/vote_07.png)
