@@ -20,5 +20,20 @@
 	5. 关于软件
 	6. 检查更新
 
-####PS
+#### PS
 临时罗列这些功能而已-_-
+
+### 截图
+![icon](http://ol37f9s9s.bkt.clouddn.com/app_icon.png)
+
+![0](http://ol37f9s9s.bkt.clouddn.com/vote_0.png)
+![1](http://ol37f9s9s.bkt.clouddn.com/vote_1.png)
+
+![2](http://ol37f9s9s.bkt.clouddn.com/vote_2.png)
+![3](http://ol37f9s9s.bkt.clouddn.com/vote_3.png)
+
+![4](http://ol37f9s9s.bkt.clouddn.com/vote_4.png)
+![5](http://ol37f9s9s.bkt.clouddn.com/vote_5.png)
+
+![6](http://ol37f9s9s.bkt.clouddn.com/vote_6.png)
+![7](http://ol37f9s9s.bkt.clouddn.com/vote_7.png)
