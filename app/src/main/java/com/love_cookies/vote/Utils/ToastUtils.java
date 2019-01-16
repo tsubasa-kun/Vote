@@ -22,9 +22,10 @@ public class ToastUtils {
 		if (TextUtils.isEmpty(text)) {
 			return;
 		}
-        SuperToast superToast = SuperToast.create(context, text, SuperToast.Duration.MEDIUM,
-                Style.getStyle(Style.GRAY, SuperToast.Animations.FADE));
-        superToast.show();
+//        SuperToast superToast = SuperToast.create(context, text, SuperToast.Duration.MEDIUM,
+//                Style.getStyle(Style.GRAY, SuperToast.Animations.FADE));
+//        superToast.show();
+		Toast.makeText(context, text, DURATION).show();
 	}
 
 	public static void showSuper(Context context, String text) {
