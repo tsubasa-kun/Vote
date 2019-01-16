@@ -195,7 +195,7 @@ public class VoteBiz implements IVoteBiz {
         try {
             String sql_up = "UPDATE vote_column SET count = (SELECT count+1 FROM vote_column WHERE column_id = ?) WHERE column_id = ?;";
             for(int id : columnIds) {
-                MyApplication.db.rawQuery(sql_up, new String[]{id + "", id + ""});
+                MyApplication.db.execSQL(sql_up, new String[]{id + "", id + ""});
             }
 
             ContentValues values = new ContentValues();
